@@ -1,13 +1,13 @@
-import React from "react";
-import { action } from "@storybook/addon-actions";
+import React from 'react';
+import { action } from '@storybook/addon-actions';
 
-import Button from "./Button";
+import Button from './Button';
 
 export default {
-  title: "Button",
-  component: Button,
+  title: 'Button',
+  component: Button
 };
 
 export const basic = () => {
-  return <Button label={"Button"} onClick={() => console.log("test")} />;
+  return <Button label={'Button'} onClick={() => console.log('test')} />;
 };
